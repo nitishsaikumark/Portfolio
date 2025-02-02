@@ -226,28 +226,12 @@ const bigProjects = {
   title: "Projects",
   subtitle: "SOME PROJECTS THAT I HAVE WORKED ON",
   projects: [
-    {
-      image: require("./assets/images/taskk.webp"),
-      projectName: "Real Time Task Management",
-      projectDesc: "A collaborative task management Kanban board designed for teams to easily manage and track their tasks.",
-      tech: "Vue 3, Node.js, Express, MongoDB, Socket.io, CSS",
-      footerLink: [
-        // {
-        //   name: "Visit Website",
-        //   url: "https://github.com/nitishsaikumark/TaskNest-app/"
-        // },
-        //  you can add extra buttons here.
-        {
-          name: "Github",
-          url: "https://github.com/nitishsaikumark/TaskNest-app"
-        }
-      ]
-    },
+    
     {
       image: require("./assets/images/cbudy.webp"),
       projectName: "Ecommerce Website",
       projectDesc: "Developed an e-commerce web application with dynamic product features, real-time GraphQL queries, and seamless cart management.",
-      tech: "Typescipt, Javascript, GraphQL, HTML, CSS",
+      tech: "Reactjs, Typescipt, Javascript, GraphQL, HTML, CSS",
       footerLink: [
         {
           name: "Visit Website",
@@ -272,6 +256,23 @@ const bigProjects = {
         {
           name: "Github",
           url: "https://github.com/nitishsaikumark/InstagramCloneUsingReact"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/taskk.webp"),
+      projectName: "Real Time Task Management",
+      projectDesc: "A collaborative task management Kanban board designed for teams to easily manage and track their tasks.",
+      tech: "Vue 3, Node.js, Express, MongoDB, Socket.io, CSS",
+      footerLink: [
+        // {
+        //   name: "Visit Website",
+        //   url: "https://github.com/nitishsaikumark/TaskNest-app/"
+        // },
+        //  you can add extra buttons here.
+        {
+          name: "Github",
+          url: "https://github.com/nitishsaikumark/TaskNest-app"
         }
       ]
     },
@@ -308,9 +309,25 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/portfolio.webp"),
+      projectName: "My Portfolio",
+      projectDesc: "Developed My Portfolio as a web application showcasing my academic and work experience along with few projects.",
+      tech: "Reactjs, Vanilla Javascript, HTML, CSS",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://portfolio-nitish-sai-kumars-projects.vercel.app"
+        },
+        {
+          name: "Github",
+          url: "https://github.com/nitishsaikumark/Portfolio"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/icemagic.jpeg"),
       projectName: "My First Ever Web App",
-      projectDesc: "Developed an online ice cream ordering web application with features like Add to Cart, Remove from Cart, and Place Order.",
+      projectDesc: "Developed an online ice cream ordering web application with features like Add, Remove from Cart, and Place Order.",
       tech: "Reactjs, Redux, Javascript, Firebase, HTML, CSS",
       footerLink: [
         {

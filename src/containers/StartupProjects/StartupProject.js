@@ -17,6 +17,7 @@ const techIcons = {
   CSS: "fab fa-css3-alt",
   HTML: "fab fa-html5",
   Javascript: "fab fa-js",
+  "Vanilla Javascript": "fab fa-js",
   TypeScript: "fab fa-js", // No official TypeScript icon in FontAwesome
   GraphQL: "fas fa-project-diagram", // GraphQL as an API placeholder
   MySql: "fas fa-database",
@@ -38,6 +39,7 @@ const techColors = {
   CSS: "#2965f1", // CSS blue
   HTML: "#f06528", // HTML5 orange
   Javascript: "#f7df1e", // JavaScript yellow
+  "Vanilla Javascript": "#f7df1e", // JavaScript yellow
   TypeScript: "#3178c6", // TypeScript blue
   GraphQL: "#e535ab", // GraphQL pink
   MySql: "#00758f", // MySQL blue
