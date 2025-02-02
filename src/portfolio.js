@@ -231,7 +231,7 @@ const bigProjects = {
       image: require("./assets/images/cbudy.webp"),
       projectName: "Ecommerce Website",
       projectDesc: "Developed an e-commerce web application with dynamic product features, real-time GraphQL queries, and seamless cart management.",
-      tech: "Reactjs, Typescipt, Javascript, GraphQL, HTML, CSS",
+      tech: "Reactjs, Typescript, Javascript, GraphQL, HTML, CSS",
       footerLink: [
         {
           name: "Visit Website",
