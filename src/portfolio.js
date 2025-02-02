@@ -332,7 +332,7 @@ const bigProjects = {
       image: require("./assets/images/icemagic.jpeg"),
       projectName: "My First Ever Web App",
       projectDesc:
-        "Developed an online ice cream ordering web application with features like Add, Remove from Cart, and Place Order.",
+        "Developed an Online ice cream ordering web application with features like Add, Remove from Cart, and Place Order.",
       tech: "Reactjs, Redux, Javascript, Firebase, HTML, CSS",
       footerLink: [
         {
