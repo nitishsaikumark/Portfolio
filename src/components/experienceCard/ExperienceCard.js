@@ -10,14 +10,13 @@ const techIconss = {
   TypeScript: "fab fa-js",
   HTML: "fab fa-html5",
   CSS: "fab fa-css3-alt",
-  Python: "fab fa-python",
+  Python: "fab fa-python"
 };
-
 
 const techIcons = {
   React: "fab fa-react",
   JavaScript: "fab fa-js",
-  Flask:  "fas fa-flask", // Placeholder for Flask
+  Flask: "fas fa-flask", // Placeholder for Flask
   SQL: "fas fa-database",
   HTML: "fab fa-html5",
   CSS: "fab fa-css3-alt",
@@ -119,24 +118,20 @@ export default function ExperienceCard({cardInfo, isDark}) {
         >
           {cardInfo.desc}
         </p>
-        
 
+        {/* Add techStack display */}
 
+        <p
+          className={
+            isDark
+              ? "experience-text-tech dark-mode-text"
+              : "experience-text-tech"
+          }
+        >
+          <strong>Tech Stack: </strong> {cardInfo.tech}
+        </p>
 
-{/* Add techStack display */}
-       
-          <p
-            className={
-              isDark
-                ? "experience-text-tech dark-mode-text"
-                : "experience-text-tech"
-            }
-          >
-            <strong>Tech Stack: </strong> {cardInfo.tech}
-          </p>
-        
-
-            {/* Render Tech Stack Icons */}
+        {/* Render Tech Stack Icons */}
         <div className="tech-stack-icons">
           {cardInfo.tech &&
             cardInfo.tech.split(", ").map((tech, index) => (
@@ -152,8 +147,6 @@ export default function ExperienceCard({cardInfo, isDark}) {
               ></i>
             ))}
         </div>
-
-
 
         <ul>
           <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />

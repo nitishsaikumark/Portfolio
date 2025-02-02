@@ -146,7 +146,9 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Computer Science",
       duration: "June 2017 - June 2021",
       desc: "GPA: 9.07/10.0",
-      descBullets: ["Ranked Top 10% in the program and received Dean merit scholarship for 3 years straight"]
+      descBullets: [
+        "Ranked Top 10% in the program and received Dean merit scholarship for 3 years straight"
+      ]
     }
   ]
 };
@@ -185,7 +187,7 @@ const workExperiences = {
       desc: "Optimized full-stack applications using React, Flask, and SQL, significantly improving performance, user experience, and engagement by implementing features like lazy loading, universal filters, and interactive dashboards.",
       tech: "React, JavaScript, Flask, SQL, HTML, CSS, AWS"
     },
-    
+
     {
       role: "Software Engineer",
       company: "Kaleris",
@@ -197,9 +199,8 @@ const workExperiences = {
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       // ]
       tech: "Java, Spring, Hibernate, SQL, HTML, CSS, Junit"
-
     },
-    
+
     {
       role: "Research Intern",
       company: "University of utah",
@@ -208,7 +209,6 @@ const workExperiences = {
       desc: "Exploring advanced mesh generation techniques in EEG problem to enhance resolution and improve the accuracy.",
       tech: "C++, Python"
     }
-    
   ]
 };
 
@@ -226,7 +226,6 @@ const bigProjects = {
   title: "Projects",
   subtitle: "SOME PROJECTS THAT I HAVE WORKED ON",
   projects: [
-    
     {
       image: require("./assets/images/cbudy.webp"),
       projectName: "Ecommerce Website",
@@ -246,7 +245,8 @@ const bigProjects = {
     {
       image: require("./assets/images/insta.png"),
       projectName: "Instagram Clone",
-      projectDesc: "Created a full-stack Instagram clone with image uploads, commenting, liking, email verification, and secure authentication.",
+      projectDesc:
+        "Created a full-stack Instagram clone with image uploads, commenting, liking, email verification, and secure authentication.",
       tech: "Reactjs, Redux, Javascript, Express.js, MySql, HTML, CSS",
       footerLink: [
         {
@@ -262,7 +262,8 @@ const bigProjects = {
     {
       image: require("./assets/images/taskk.webp"),
       projectName: "Real Time Task Management",
-      projectDesc: "A collaborative task management Kanban board designed for teams to easily manage and track their tasks.",
+      projectDesc:
+        "A collaborative task management Kanban board designed for teams to easily manage and track their tasks.",
       tech: "Vue 3, Node.js, Express, MongoDB, Socket.io, CSS",
       footerLink: [
         // {
@@ -279,7 +280,8 @@ const bigProjects = {
     {
       image: require("./assets/images/fooot.webp"),
       projectName: "Fifa Vizplay",
-      projectDesc: "Designed an interactive dashboard to visualize global player distribution and assess match-fixing risks associated with players.",
+      projectDesc:
+        "Designed an interactive dashboard to visualize global player distribution and assess match-fixing risks associated with players.",
       tech: "Javascript, D3.js, HTML, CSS, Bootstrap",
       footerLink: [
         {
@@ -295,7 +297,8 @@ const bigProjects = {
     {
       image: require("./assets/images/covid.png"),
       projectName: "Covid19 World Tracker",
-      projectDesc: "Developed a COVID-19 case tracker dashboard with interactive geo-maps and trend comparisons using D3.js, providing global health insights.",
+      projectDesc:
+        "Developed a COVID-19 case tracker dashboard with interactive geo-maps and trend comparisons using D3.js, providing global health insights.",
       tech: "Javascript, D3.js, HTML, CSS",
       footerLink: [
         {
@@ -311,7 +314,8 @@ const bigProjects = {
     {
       image: require("./assets/images/portfolio.webp"),
       projectName: "My Portfolio",
-      projectDesc: "Developed My Portfolio as a web application showcasing my academic and work experience along with few projects.",
+      projectDesc:
+        "Developed My Portfolio as a web application showcasing my academic and work experience along with few projects.",
       tech: "Reactjs, Vanilla Javascript, HTML, CSS",
       footerLink: [
         {
@@ -327,7 +331,8 @@ const bigProjects = {
     {
       image: require("./assets/images/icemagic.jpeg"),
       projectName: "My First Ever Web App",
-      projectDesc: "Developed an online ice cream ordering web application with features like Add, Remove from Cart, and Place Order.",
+      projectDesc:
+        "Developed an online ice cream ordering web application with features like Add, Remove from Cart, and Place Order.",
       tech: "Reactjs, Redux, Javascript, Firebase, HTML, CSS",
       footerLink: [
         {
@@ -340,7 +345,6 @@ const bigProjects = {
         }
       ]
     }
-    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -456,8 +460,7 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-  ],
+  podcast: [],
   display: false // Set false to hide this section, defaults to true
 };
 

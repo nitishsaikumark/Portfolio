@@ -24,7 +24,7 @@ const techIcons = {
   D3: "fas fa-chart-line", // Placeholder for D3.js (data visualization)
   "D3.js": "fas fa-chart-line",
   Bootstrap: "fab fa-bootstrap",
-  "Firebase": "fas fa-fire",
+  Firebase: "fas fa-fire"
 };
 
 const techColors = {
@@ -53,10 +53,8 @@ const techColors = {
   JUnit: "#25a162", // JUnit green
   "C++": "#00599c", // C++ blue
   Python: "#306998", // Python blue
-  "Firebase": "#ffca28",
+  Firebase: "#ffca28"
 };
-
-
 
 export default function StartupProject() {
   function openUrlInNewTab(url) {
@@ -73,102 +71,106 @@ export default function StartupProject() {
   }
   return (
     <div id="opensource">
-    <Fade bottom duration={1000} distance="20px">
-      <div className="main" id="projects">
-        <div>
-          <h1 className="skills-heading">{bigProjects.title}</h1>
-          <p
-            className={
-              isDark
-                ? "dark-mode project-subtitle"
-                : "subTitle project-subtitle"
-            }
-          >
-            {bigProjects.subtitle}
-          </p>
+      <Fade bottom duration={1000} distance="20px">
+        <div className="main" id="projects">
+          <div>
+            <h1 className="skills-heading">{bigProjects.title}</h1>
+            <p
+              className={
+                isDark
+                  ? "dark-mode project-subtitle"
+                  : "subTitle project-subtitle"
+              }
+            >
+              {bigProjects.subtitle}
+            </p>
 
-          <div className="projects-container">
-            {bigProjects.projects.map((project, i) => {
-              return (
-                <div
-                  key={i}
-                  className={
-                    isDark
-                      ? "dark-mode project-card project-card-dark"
-                      : "project-card project-card-light"
-                  }
-                >
-                  {project.image ? (
-                    <div className="project-image">
-                      <img
-                        src={project.image}
-                        alt={project.projectName}
-                        className="card-image"
-                      ></img>
-                    </div>
-                  ) : null}
-                  <div className="project-detail">
-                    <h5
-                      className={isDark ? "dark-mode card-title" : "card-title"}
-                    >
-                      {project.projectName}
-                    </h5>
-                    <p
-                      className={
-                        isDark ? "dark-mode card-subtitle" : "card-subtitle"
-                      }
-                    >
-                      {project.projectDesc}
-                    </p>
-                      
-                    <p
-                      className={
-                        isDark ? "dark-mode card-subtitle" : "card-subtitle"
-                      }
-                    >
-                      {project.tech}
-                    </p>
-                    
-                    <div className="tech-stack-icons">
-          {project.tech &&
-            project.tech.split(", ").map((tech, index) => (
-              <i
-                key={index}
-                className={techIcons[tech] || "fas fa-code"} // Default to "fas fa-code" if no icon is found
-                style={{
-                  fontSize: "1.2rem",
-                  margin: "0 0.5rem",
-                  color: techColors[tech] || "#000"// Default icon color
-                }}
-                title={tech} // Tooltip for tech name
-              ></i>
-            ))}
-        </div>
-                    {project.footerLink ? (
-                      <div className="project-card-footer">
-                        {project.footerLink.map((link, i) => {
-                          return (
-                            <span
-                              key={i}
-                              className={
-                                isDark ? "dark-mode project-tag" : "project-tag"
-                              }
-                              onClick={() => openUrlInNewTab(link.url)}
-                            >
-                              {link.name}
-                            </span>
-                          );
-                        })}
+            <div className="projects-container">
+              {bigProjects.projects.map((project, i) => {
+                return (
+                  <div
+                    key={i}
+                    className={
+                      isDark
+                        ? "dark-mode project-card project-card-dark"
+                        : "project-card project-card-light"
+                    }
+                  >
+                    {project.image ? (
+                      <div className="project-image">
+                        <img
+                          src={project.image}
+                          alt={project.projectName}
+                          className="card-image"
+                        ></img>
                       </div>
                     ) : null}
+                    <div className="project-detail">
+                      <h5
+                        className={
+                          isDark ? "dark-mode card-title" : "card-title"
+                        }
+                      >
+                        {project.projectName}
+                      </h5>
+                      <p
+                        className={
+                          isDark ? "dark-mode card-subtitle" : "card-subtitle"
+                        }
+                      >
+                        {project.projectDesc}
+                      </p>
+
+                      <p
+                        className={
+                          isDark ? "dark-mode card-subtitle" : "card-subtitle"
+                        }
+                      >
+                        {project.tech}
+                      </p>
+
+                      <div className="tech-stack-icons">
+                        {project.tech &&
+                          project.tech.split(", ").map((tech, index) => (
+                            <i
+                              key={index}
+                              className={techIcons[tech] || "fas fa-code"} // Default to "fas fa-code" if no icon is found
+                              style={{
+                                fontSize: "1.2rem",
+                                margin: "0 0.5rem",
+                                color: techColors[tech] || "#000" // Default icon color
+                              }}
+                              title={tech} // Tooltip for tech name
+                            ></i>
+                          ))}
+                      </div>
+                      {project.footerLink ? (
+                        <div className="project-card-footer">
+                          {project.footerLink.map((link, i) => {
+                            return (
+                              <span
+                                key={i}
+                                className={
+                                  isDark
+                                    ? "dark-mode project-tag"
+                                    : "project-tag"
+                                }
+                                onClick={() => openUrlInNewTab(link.url)}
+                              >
+                                {link.name}
+                              </span>
+                            );
+                          })}
+                        </div>
+                      ) : null}
+                    </div>
                   </div>
-                </div>
-              );
-            })}
+                );
+              })}
+            </div>
           </div>
         </div>
-      </div>
-    </Fade>
+      </Fade>
     </div>
   );
 }
