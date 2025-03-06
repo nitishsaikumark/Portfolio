@@ -65,6 +65,10 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
@@ -107,10 +111,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "Java",
-      fontAwesomeClassname: "fa-brands fa-java"
     },
     {
       skillName: "firebase",
