@@ -42,7 +42,8 @@ const techColors = {
   Hibernate: "#59666c", // Hibernate's brand color
   Junit: "#25a162", // Green for JUnit
   "C++": "#00599c", // C++ blue
-  Python: "#306998" // Python blue
+  Python: "#306998", // Python blue
+  "Spring Boot": "#6db33f", // Spring green
 };
 
 export default function ExperienceCard({cardInfo, isDark}) {

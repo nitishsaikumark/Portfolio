@@ -24,7 +24,10 @@ const techIcons = {
   D3: "fas fa-chart-line", // Placeholder for D3.js (data visualization)
   "D3.js": "fas fa-chart-line",
   Bootstrap: "fab fa-bootstrap",
-  Firebase: "fas fa-fire"
+  Firebase: "fas fa-fire",
+  Java: "fab fa-java",
+  Spring: "fas fa-seedling", // Spring green
+  "Spring Boot": "fas fa-seedling",
 };
 
 const techColors = {
@@ -49,6 +52,7 @@ const techColors = {
   AWS: "#ff9900", // AWS orange
   Java: "#007396", // Java blue
   Spring: "#6db33f", // Spring green
+  "Spring Boot": "#6db33f", // Spring Boot green
   Hibernate: "#59666c", // Hibernate grey
   JUnit: "#25a162", // JUnit green
   "C++": "#00599c", // C++ blue

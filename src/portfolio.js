@@ -109,6 +109,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
+      skillName: "Java",
+      fontAwesomeClassname: "fa-brands fa-java"
+    },
+    {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
@@ -227,6 +231,23 @@ const bigProjects = {
   subtitle: "SOME PROJECTS THAT I HAVE WORKED ON",
   projects: [
     {
+      image: require("./assets/images/smartaigmail.webp"),
+      projectName: "Smart Email Assistant",
+      projectDesc:
+        "Developed a Smart Email Assistant using Java, Spring Boot and Gemini API automating replies within Gmail.",
+      tech: "Java, Spring Boot, REST API, Reactjs, HTML, CSS",
+      footerLink: [
+        // {
+        //   name: "Visit Website",
+        //   url: "https://cute-buddy.netlify.app/"
+        // },
+        {
+          name: "Github",
+          url: "https://github.com/nitishsaikumark/Smart_Email_Assistant-using-Java"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/cbudy.webp"),
       projectName: "Ecommerce Website",
       projectDesc:
@@ -334,7 +355,7 @@ const bigProjects = {
       projectName: "My First Ever Web App",
       projectDesc:
         "Developed an Online ice cream ordering web application with features like Add, Remove from Cart, and Place Order.",
-      tech: "Reactjs, Redux, Javascript, Firebase, HTML, CSS",
+      tech: "Reactjs, Redux, Javascript, Firebase, HTML, CSS,  REST API",
       footerLink: [
         {
           name: "Visit Website",
