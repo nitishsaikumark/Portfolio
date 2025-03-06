@@ -185,8 +185,8 @@ const workExperiences = {
       company: "Tata Consultancy Services",
       companylogo: require("./assets/images/tcs.png"),
       date: "July 2021 – Oct 2022",
-      desc: "Optimized full-stack applications using React, Flask, and SQL, significantly improving performance, user experience, and engagement by implementing features like lazy loading, universal filters, and interactive dashboards.",
-      tech: "React, JavaScript, Flask, SQL, HTML, CSS, AWS"
+      desc: "Optimized full-stack applications using React, Java, Flask, and SQL, significantly improving performance, user experience, and engagement by implementing features like lazy loading, universal filters, and interactive dashboards.",
+      tech: "Java, React, JavaScript, Flask, SQL, HTML, AWS"
     },
 
     {
