@@ -96,10 +96,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Vuejs",
       fontAwesomeClassname: "fab fa-vuejs"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+    
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
